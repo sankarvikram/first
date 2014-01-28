@@ -1,0 +1,225 @@
+
+.person {
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    height: 50px;
+    margin-left: -27px;
+    margin-top: -27px;
+    position: absolute;
+    width: 50px;
+    z-index: 300;
+    background-image: "../images/superman.jpg";
+}
+
+#circle1 {
+    border: 2px solid #74D3F4;
+    border-radius: 100%;
+    display: none;
+    height: 650px;
+    left: 25px;
+    overflow: inherit !important;
+    position: absolute;
+    top: 25px;
+    width: 650px;
+}
+
+#circle2 {
+    border: 2px solid #74D3F4;
+    border-radius: 100%;
+    display: none;
+    height: 500px;
+    left: 100px;
+    overflow: inherit !important;
+    position: absolute;
+    top: 100px;
+    width: 500px;
+}
+#circle3 {
+    border: 2px solid #74D3F4;
+    border-radius: 100%;
+    display: none;
+    height: 350px;
+    left: 175px;
+    overflow: inherit !important;
+    position: absolute;
+    top: 175px;
+    width: 350px;
+}
+#circle4 {
+    border: 2px solid #74D3F4;
+    border-radius: 100%;
+    display: none;
+    height: 200px;
+    left: 250px;
+    overflow: inherit !important;
+    position: absolute;
+    top: 250px;
+    width: 200px;
+}
+#circle5 {
+    border: 2px solid #74D3F4;
+    border-radius: 100%;
+    display: none;
+    height: 100px;
+    left: 300px;
+    overflow: inherit !important;
+    position: absolute;
+    top: 300px;
+    width: 100px;
+}    
+.hoverinfo {
+    font-family: arial,sans-serif;
+    margin-left: -55px;
+    position: absolute;
+    text-align: center;
+    width: 160px;
+    z-index: 550;
+}
+
+.hoverinfo .inner {
+    background: none repeat scroll 0 0 #EA71B0;
+    border-radius: 3px;
+    bottom: 0;
+    padding: 10px;
+    position: absolute;
+    width: 140px;
+    z-index: 551;
+}
+.hoverinfo .name {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #404040;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    margin: 0 0 3px;
+    padding: 0;
+}
+
+.hoverinfo .model {
+    color: #6D8092;
+    font: 300 13px arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#pin {
+    background: url("../images/superman.jpg") no-repeat scroll center center rgba(0, 0, 0, 0);
+    display: block;
+    height: 70px;
+    left: 50%;
+    margin-left: -34px;
+    position: absolute;
+    top: 0;
+    width: 70px;
+}
+
+#radar {
+    height: 700px;
+    left: 50%;
+    margin-left: -350px;
+    margin-top: -300px;
+    position: absolute;
+    top: 45%;
+    z-index: 200;
+}
+
+#profile {
+    display: none;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+#profile-back {
+    background: url("../images/back.jpg") no-repeat scroll left center rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    left: 50%;
+    margin-left: -300px;
+    padding: 0 0 0 100px;
+    position: absolute;
+    top: 20px;
+    height:170px;
+    
+}
+
+#profile-holder {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 2px 6px #0D409B;
+    height: 200px;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: 150px;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    width: 600px;
+    z-index: 0;
+}
+
+#profile-info {
+    padding: 40px 60px 0;
+    text-align: center;
+}
+
+#profile-name {
+    color: #0876D3;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#profile-buttons {
+    height: 40px;
+    margin: 20px 0 0;
+}
+
+#profile-try {
+    background: url("../images/batman.jpg") no-repeat scroll 15px center #49B571;
+    border-radius: 3px;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font: 14px/40px arial,sans-serif;
+    height: 40px;
+    margin: 0 10px 0 0;
+    padding: 0 20px 0 50px;
+    position: relative;
+    z-index: 0;
+}
+
+#profile-promote {
+    background: url("../images/Vader.png") no-repeat scroll 15px center #0066CC;
+    border-radius: 3px;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+    font: 14px/40px arial,sans-serif;
+    height: 40px;
+    padding: 0 20px 0 50px;
+    position: relative;
+    z-index: 0;
+}
+
+#profile-image {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 7px solid #FFFFFF;
+    border-radius: 100%;
+    left: 50%;
+    margin-left: -82px;
+    margin-top: -120px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 0;
+}
+#profile-image img {
+    border-radius: 100%;
+    display: block;
+    height: 150px;
+    position: relative;
+    width: 150px;
+    z-index: 0;
+}
