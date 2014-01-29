@@ -55,24 +55,24 @@
 
 
  $("#circle1")
- .animate({height: "hide", width: "hide"}, 5000, "easeOutElastic")
- .animate({height: "show", width: "show"}, 6000, "easeInElastic");
+ .animate({height: "hide", width: "hide"}, 5000, "easeOutCirc")
+ .animate({height: "show", width: "show"}, 6000, "easeInCirc");
  
  $("#circle2")
- .animate({height: "hide", width: "hide"}, 4000, "easeOutElastic")
- .animate({height: "show", width: "show"}, 5000, "easeInElastic");
+ .animate({height: "hide", width: "hide"}, 4000, "easeOutCirc")
+ .animate({height: "show", width: "show"}, 5000, "easeInCirc");
  
  $("#circle3")
- .animate({height: "hide", width: "hide"}, 3000, "easeOutElastic")
- .animate({height: "show", width: "show"}, 4000, "easeInElastic");
+ .animate({height: "hide", width: "hide"}, 3000, "easeOutCirc")
+ .animate({height: "show", width: "show"}, 4000, "easeInCirc");
  
  $("#circle4")
- .animate({height: "hide", width: "hide"}, 2000, "easeOutElastic")
- .animate({height: "show", width: "show"}, 3000, "easeInElastic");
+ .animate({height: "hide", width: "hide"}, 2000, "easeOutCirc")
+ .animate({height: "show", width: "show"}, 3000, "easeInCirc");
 
  $("#circle5")
- .animate({height: "hide", width: "hide"}, 1000, "easeOutElastic")
- .animate({height: "show", width: "show"}, 2000, "easeInElastic");
+ .animate({height: "hide", width: "hide"}, 1000, "easeOutCirc")
+ .animate({height: "show", width: "show"}, 2000, "easeInCirc");
 
  
  $('#circle1').delay(0).show(function () {
@@ -138,8 +138,8 @@ function backToMap(){
 }
 
 function openProfile(){
-	$('#profile-back').attr("onclick", "backToMap();").html('Go Back');
-	 $('#profile-image').html('<img src="https://graph.facebook.com/1247463591/picture?width=200&height=200" alt="" />');
+	$('#profile-back').attr("onclick", "backToMap();");
+	 $('#profile-image').html('<img src="images/superman.jpg" alt="" />');
 	 $('#profile-try').show();
 	 $('#profile-promote').show();
 	 $('#profile-name').html('Sankar Vikram');
