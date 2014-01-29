@@ -176,32 +176,6 @@
     margin: 20px 0 0;
 }
 
-#profile-try {
-    background: url("../images/batman.jpg") no-repeat scroll 15px center #49B571;
-    border-radius: 3px;
-    color: #FFFFFF;
-    cursor: pointer;
-    float: left;
-    font: 14px/40px arial,sans-serif;
-    height: 40px;
-    margin: 0 10px 0 0;
-    padding: 0 20px 0 50px;
-    position: relative;
-    z-index: 0;
-}
-
-#profile-promote {
-    background: url("../images/Vader.png") no-repeat scroll 15px center #0066CC;
-    border-radius: 3px;
-    color: #FFFFFF;
-    cursor: pointer;
-    float: right;
-    font: 14px/40px arial,sans-serif;
-    height: 40px;
-    padding: 0 20px 0 50px;
-    position: relative;
-    z-index: 0;
-}
 
 #profile-image {
     background: none repeat scroll 0 0 #FFFFFF;
